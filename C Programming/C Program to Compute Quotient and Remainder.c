@@ -2,9 +2,10 @@
 #include <conio.h>
 
 int main(){
-	int a=75, b=9, rem;
+	int a=25, b=6, rem,quo;
 	
+	quo=a/b;
 	rem= a%b;
 	
-	printf("rem : %d",rem);
+	printf("Quotient : %d and Reminder : %d",quo,rem);
 }
